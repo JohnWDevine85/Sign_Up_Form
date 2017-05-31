@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.outer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FBDA31;
+  padding: 2rem;
+  min-height: 100vh;
+}
+section {
+  width: 760px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+label{
+}
+input{
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 80%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+
+}
+.radio{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: black;
+  margin: .5rem;
+  margin-bottom: 1rem;
+}
+.inputs{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.input_labels{
+  flex-basis: 40%;
+  padding: .4rem;
+}
+.input_fields{
+  width: 100%;
+}
+.Sign_up{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.Sign_up_button{
+    border: solid 2px;
+}
+.signupbuttontext{
+  width: 214px;
+  border: 2px black;
+  background-color: white;
+}

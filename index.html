@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Profile Setup</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <div class="outer">
+    <section>
+      <h3>Sign Up</h3>
+    </section>
+    <section>
+      <form class="form">
+          <div class="radio">
+            <div>
+            <label>
+            <input type="radio" name="test" value="admin">admin</label>
+            </div>
+            <div>
+            <label>
+            <input type="radio" name="test" value="personal">personal</label>
+          </div>
+          <div>
+            <label>
+            <input type="radio" name="test" value="guest">guest</label>
+          </div>
+          </div>
+          <div class="inputs">
+            <div class="input_labels">
+              <label>Name:</label>
+              <br>
+              <input class="input_fields" type="text" name="name input">
+            </div>
+            <div class="input_labels">
+              <label>Email Address:</label>
+              <br>
+              <input class="input_fields" type="email" name="email">
+            </div>
+            <div class="input_labels">
+            <label>Password:</label>
+            <br>
+            <input class="input_fields" type="text" name="password">
+          </div>
+          <div class="input_labels">
+            <label>Confirm Password:</label>
+            <br>
+            <input class="input_fields" type="text" name="password_conf">
+          </div>
+        </div>
+        <div class="Sign_up">
+          <div class="sign_up_button">
+          <label>Profile Picture</label>
+          <br>
+          <input type="file" name="image_upload">
+        </div>
+        <div class="sign_up_button">
+          <div>
+          <input class="signupbuttontext" type="submit" name="sign_up" value="sign up">
+          </div>
+        </div>
+        </div>
+      </form>
+    </section>
+  </div>
+</body>
+</html>
+
+<!-- 3 radio options:
+admin
+personal (pre-checked)
+guest
+name input
+email input
+password input
+confirm password input
+profile picture file input
+sign up button -->
